@@ -18,7 +18,7 @@ const projects = [
       "Windows Firewall Automation",
     ],
     github: "https://github.com/kishan0818/CyberTriage",
-    demo: "/projects/CT_DV.mp4",
+    demo: "https://drive.google.com/file/d/14bu0BH5MRbKQDBY8Gf5YRzZbplJqbTRB/view?usp=sharing", // or Google Drive link
     demoType: "video",
   },
   {
@@ -28,7 +28,7 @@ const projects = [
     image: "/projects/fhc.png",
     tech: ["Raspberry PI 4B", "YOLOv8", "IoT", "Computer Vision", "OpenCV", "Leaflet.js", "Twilio API"],
     github: "",
-    demo: "/projects/F_DV.mp4",
+    demo: "https://drive.google.com/file/d/1oAiJpuySPdQQOKtwHGAlK4FZSOGzh0UK/view?usp=sharing", // or Google Drive link
     demoType: "video",
   },
   {
@@ -74,6 +74,17 @@ const projects = [
     demoType: null,
   }
 ]
+
+// Helper function to handle Google Drive direct links
+const getDemoUrl = (url: string, type: string | null): string => {
+  if (type === "video" && url.includes("drive.google.com")) {
+    const match = url.match(/\/d\/(.*?)\//);
+    if (match && match[1]) {
+      return `https://drive.google.com/file/d/${match[1]}/preview`;
+    }
+  }
+  return url;
+};
 
 
 export default function Projects() {
@@ -153,7 +164,7 @@ export default function Projects() {
                   {/* Demo Button */}
                   {project.demo && project.demo !== "#" && project.demoType && (
                     <motion.a
-                      href={project.demo}
+                      href={getDemoUrl(project.demo, project.demoType)}
                       target="_blank"
                       rel="noopener noreferrer"
                       whileHover={{ scale: 1.05 }}
