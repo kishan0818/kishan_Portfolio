@@ -37,7 +37,7 @@ const projects = [
       "AI ICU bed allocation system with predictive analytics, dashboards, and automated approvals. Consultancy project for GE Healthcare.",
     image: "/projects/icu.png",
     tech: ["AI", "Machine Learning", "Healthcare", "Resource Management", "Dashboard", "TypeScript", "FastAPI", "Python"],
-    github: "https://github.com/kishan0818/geh-icu",
+    github: "",
     demo: "",
     demoType: null,
   },
