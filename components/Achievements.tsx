@@ -52,6 +52,14 @@ const achievements = [
     image: "/achievements/ecocity.jpg",
     description: "Awarded for poster on Al-Powered Adaptive Traffic Management System - Revolutionizing Urban Mobility at Kumaraguru College of Technology, Coimbatore.",
   },
+  {
+    title: "Idea Pitch - AI Week 2025",
+    placement: "3rd Place",
+    prize: "Bronze",
+    year: "2025",
+    image: "/achievements/aiweek.jpg",
+    description: "Awarded for presenting an AI solution on Drone Defence & Attack - Sri Ramakrishna Engineering College, Coimbatore.",
+  },
 ]
 
 export default function Achievements() {
