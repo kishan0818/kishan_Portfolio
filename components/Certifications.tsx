@@ -13,6 +13,12 @@ const certifications = [
     description: "Become an Agentblazer Champion (Certified Trailmix)",
   },
   {
+    name: "Celonis",
+    logo: "/logos/celonis-logo.jpg",
+    url: "/certificates/celonis_certs.pdf",
+    description: "Completed Celonis Academy Training with 3 skill badges",
+  },
+  {
     name: "AWS",
     logo: "/logos/aws-logo.png",
     url: "/certificates/aws_cert.pdf",
