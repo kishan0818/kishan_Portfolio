@@ -11,7 +11,7 @@ export default function Hero() {
 
   const downloadResume = () => {
     // In a real implementation, this would download the actual resume
-    window.open("/Jayakishan_Resume.pdf", "_blank")
+    window.open("/Jayakishan_IT_Resume.pdf", "_blank")
   }
 
   return (
