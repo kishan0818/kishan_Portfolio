@@ -7,6 +7,30 @@ import Image from "next/image"
 
 const certifications = [
   {
+    name: "RBG.AI",
+    logo: "/logos/rbgai.jpeg",
+    url: "/certificates/Jayakishan_RBGAI_ICC.pdf",
+    description: " Mobile Application Development Internship - Built a Chatbot Mobile Application using Flutter for Query Services",
+  },
+  {
+    name: "AICTE X IBM Skillsbuild",
+    logo: "/logos/aicte-ibm.png",
+    url: "/certificates/Jayakishan_IBM_VI_Completion_Certificate.pdf",
+    description: "Completed a 4 weeks virtual internship on AI & Cloud Technology",
+  },
+  {
+    name: "IBM",
+    logo: "/logos/ibm-logo.png",
+    url: "https://www.credly.com/badges/3e3e2ebc-bf55-48be-a7a5-c269a0918cda",
+    description: "Understanding AI concepts, applications, and ethical considerations",
+  },
+  {
+    name: "Snowflake",
+    logo: "/logos/snowflake-logo.png",
+    url: "/certificates/Jayakishan_Snowflake_Certificate.pdf",
+    description: "Snowflake Cloud Data Platform Fundamentals",
+  },
+  {
     name: "Salesforce",
     logo: "/logos/salesforce-logo.png",
     url: "https://www.salesforce.com/trailblazer/bh0dlpruyh4zxix7n3",
@@ -40,7 +64,7 @@ const certifications = [
     name: "IBM",
     logo: "/logos/ibm-logo.png",
     url: "/certificates/ibm_cert.pdf",
-    description: "Web Development & Fundamentals",
+    description: "Web Development Fundamentals",
   },
   {
     name: "Infosys",

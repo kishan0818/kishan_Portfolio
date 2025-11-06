@@ -13,6 +13,14 @@ const achievements = [
     description: "Won for developing the AI-driven Nocturnal Elephant Detection & Deterrence System - Sri Ramakrishna Engineering College, Coimbatore.",
   },
   {
+    title: "GE Healthcare - Consultancy Project",
+    placement: "",
+    prize: "Certificate of Recognition",
+    year: "2025",
+    image: "/certificates/geh-cert.jpg",
+    description: "Completed a consultancy project on AI Powered ICU Patient Flow Coordinator - GE Healthcare & Sri Ramakrishna Engineering College, Coimbatore.",
+  },
+  {
     title: "Protovision - Technovate'25",
     placement: "1st Place",
     prize: "Winner",

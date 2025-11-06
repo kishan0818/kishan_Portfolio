@@ -32,7 +32,7 @@ const projects = [
     demoType: "video",
   },
   {
-    title: "ICU Patient Flow Coordinator",
+    title: "AI Powered ICU Patient Flow Coordinator",
     description:
       "AI ICU bed allocation system with predictive analytics, dashboards, and automated approvals. Consultancy project for GE Healthcare.",
     image: "/projects/icu.png",
