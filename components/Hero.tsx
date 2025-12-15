@@ -9,11 +9,6 @@ export default function Hero() {
     document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })
   }
 
-  const downloadResume = () => {
-    // In a real implementation, this would download the actual resume
-    window.open("/Jayakishan_IT_Resume.pdf", "_blank")
-  }
-
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Animated Background */}
@@ -98,15 +93,17 @@ export default function Hero() {
                 <Eye size={20} />
                 View Projects
               </motion.button>
-              <motion.button
+              <motion.a
+                href="/api/view-resume"
+                target="_blank"
+                rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                onClick={downloadResume}
                 className="px-8 py-3 border-2 border-[#00E0B8] text-[#00E0B8] font-semibold rounded-lg hover:bg-[#00E0B8] hover:text-black transition-all duration-200 flex items-center justify-center gap-2"
               >
-                <Download size={20} />
-                Get Resume
-              </motion.button>
+                <Eye size={20} />
+                View Resume
+              </motion.a> 
             </motion.div>
           </motion.div>
 

@@ -6,6 +6,45 @@ import Image from "next/image"
 
 const projects = [
   {
+    title: "UTSAVA’26 – National Techno-Cultural Symposium Platform",
+    description:
+      "A full-scale production-grade website built for UTSAVA’26, a national-level techno-cultural symposium. The platform handles event listings, workshops, shows, registrations, dynamic schedules, and real-time UI interactions with a premium, modern user experience.",
+    image: "/projects/utsava.png",
+    tech: [
+      "Next.js 15",
+      "TypeScript",
+      "React",
+      "Tailwind CSS v4",
+      "Framer Motion",
+      "Supabase",
+      "Vercel",
+      "Responsive Design"
+    ],
+    github: "", 
+    demo: "https://srec-utsava.in",
+    demoType: "live"
+  },
+  {
+    title: "AI Powered ICU Patient Flow Coordinator",
+    description:
+      "AI ICU bed allocation system with predictive analytics, dashboards, and automated approvals. Consultancy project for GE Healthcare.",
+    image: "/projects/icu.png",
+    tech: ["AI", "Machine Learning", "Healthcare", "Resource Management", "Dashboard", "TypeScript", "FastAPI", "Python"],
+    github: "",
+    demo: "https://drive.google.com/file/d/1bHBdlFBayHi8kjnHhxljfZl0BYBfngbR/view?usp=sharing",
+    demoType:"video",
+  },
+  {
+    title: "AI Driven Nocturnal Elephant Detection",
+    description:
+      "YOLOv8-based elephant detection with adaptive alerts and bilingual dashboard for conflict prevention. 1st Prize at Human-Animal Conflict Hackathon 2025.",
+    image: "/projects/fhc.png",
+    tech: ["Raspberry PI 4B", "YOLOv8", "IoT", "Computer Vision", "OpenCV", "Leaflet.js", "Twilio API"],
+    github: "",
+    demo: "https://drive.google.com/file/d/1oAiJpuySPdQQOKtwHGAlK4FZSOGzh0UK/view?usp=sharing", // or Google Drive link
+    demoType: "video",
+  },
+  {
     title: "AI Powered Cyber Triage System for Real-time threat Detection",
     description:
       "Real-time platform detecting and mitigating DoS/DDoS variants via Random Forest, with automated IP blocking and CSV log analysis. 1st Prize at TECHNOVATE’25.",
@@ -20,26 +59,6 @@ const projects = [
     github: "https://github.com/kishan0818/CyberTriage",
     demo: "https://drive.google.com/file/d/14bu0BH5MRbKQDBY8Gf5YRzZbplJqbTRB/view?usp=sharing", // or Google Drive link
     demoType: "video",
-  },
-  {
-    title: "AI Driven Nocturnal Elephant Detection",
-    description:
-      "YOLOv8-based elephant detection with adaptive alerts and bilingual dashboard for conflict prevention. 1st Prize at Human-Animal Conflict Hackathon 2025.",
-    image: "/projects/fhc.png",
-    tech: ["Raspberry PI 4B", "YOLOv8", "IoT", "Computer Vision", "OpenCV", "Leaflet.js", "Twilio API"],
-    github: "",
-    demo: "https://drive.google.com/file/d/1oAiJpuySPdQQOKtwHGAlK4FZSOGzh0UK/view?usp=sharing", // or Google Drive link
-    demoType: "video",
-  },
-  {
-    title: "AI Powered ICU Patient Flow Coordinator",
-    description:
-      "AI ICU bed allocation system with predictive analytics, dashboards, and automated approvals. Consultancy project for GE Healthcare.",
-    image: "/projects/icu.png",
-    tech: ["AI", "Machine Learning", "Healthcare", "Resource Management", "Dashboard", "TypeScript", "FastAPI", "Python"],
-    github: "",
-    demo: "",
-    demoType: null,
   },
   {
     title: "SmartSEV - SREC",

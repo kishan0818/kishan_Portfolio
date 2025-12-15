@@ -199,7 +199,7 @@ export default function Contact() {
                   <Phone size={20} className="text-[#00E0B8] mr-4" />
                   <div>
                     <p className="text-white font-medium">Phone</p>
-                    <p className="text-gray-400">Available on request</p>
+                    <p className="text-gray-400">+91 95858 20900</p>
                   </div>
                 </div>
               </div>

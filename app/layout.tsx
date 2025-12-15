@@ -18,7 +18,7 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "Jayakishan B",
+  title: "Jayakishan B | Portfolio",
   description:
     "Portfolio of Jayakishan B, AI & Full-Stack Developer specializing in intelligent systems and real-world problem solving.",
   keywords: "AI Developer, Full-Stack Developer, Machine Learning, Next.js, React, Python",
