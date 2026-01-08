@@ -9,7 +9,7 @@ const achievements = [
     placement: "1st Place",
     prize: "₹25K",
     year: "2024",
-    image: "/achievements/forest.jpg",
+    image: "/achievements/forest.webp",
     description: "Won for developing the AI-driven Nocturnal Elephant Detection & Deterrence System - Sri Ramakrishna Engineering College, Coimbatore.",
   },
   {
@@ -17,7 +17,7 @@ const achievements = [
     placement: "",
     prize: "Certificate of Recognition",
     year: "2025",
-    image: "/certificates/geh-cert.jpg",
+    image: "/certificates/geh-cert.webp",
     description: "Completed a consultancy project on AI Powered ICU Patient Flow Coordinator - GE Healthcare & Sri Ramakrishna Engineering College, Coimbatore.",
   },
   {
@@ -25,7 +25,7 @@ const achievements = [
     placement: "1st Place",
     prize: "Winner",
     year: "2025",
-    image: "/achievements/protovision.jpg",
+    image: "/achievements/protovision.webp",
     description: "Awarded for the AI Powered Cyber Triage System for Real-time threat Detection at Technovate'25 - Government College of Technology, Coimbatore.",
   },
   {
@@ -33,7 +33,7 @@ const achievements = [
     placement: "Special Recognition",
     prize: "Icon Award",
     year: "2024",
-    image: "/achievements/hack24.jpg",
+    image: "/achievements/hack24.webp",
     description: "Special recognition for innovative AI powered Lung Disease Prediction System at Kanam'25 - Dr.N.G.P College of Technology, Coimbatore.",
   },
   {
@@ -41,7 +41,7 @@ const achievements = [
     placement: "3rd Place",
     prize: "Bronze",
     year: "2024",
-    image: "/achievements/pperf.jpg",
+    image: "/achievements/pperf.webp",
     description: "Third place for business plan presentation on AI solutions for Medical Kits Management - Sri Ramakrishna Engineering College, Coimbatore.",
   },
   {
@@ -49,7 +49,7 @@ const achievements = [
     placement: "1st Place",
     prize: "Gold",
     year: "2024",
-    image: "/achievements/youthzest.jpg",
+    image: "/achievements/youthzest.webp",
     description: "First place for technical paper on Neuralink - Sri Ramakrishna Engineering College, Coimbatore.",
   },
   {
@@ -57,7 +57,7 @@ const achievements = [
     placement: "3rd Place",
     prize: "Bronze",
     year: "2024",
-    image: "/achievements/ecocity.jpg",
+    image: "/achievements/ecocity.webp",
     description: "Awarded for poster on Al-Powered Adaptive Traffic Management System - Revolutionizing Urban Mobility at Kumaraguru College of Technology, Coimbatore.",
   },
   {
@@ -65,7 +65,7 @@ const achievements = [
     placement: "3rd Place",
     prize: "Bronze",
     year: "2025",
-    image: "/achievements/aiweek.jpg",
+    image: "/achievements/aiweek.webp",
     description: "Awarded for presenting an AI solution on Drone Defence & Attack - Sri Ramakrishna Engineering College, Coimbatore.",
   },
 ]

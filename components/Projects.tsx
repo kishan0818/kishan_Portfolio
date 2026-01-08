@@ -9,7 +9,7 @@ const projects = [
     title: "UTSAVA’26 – National Techno-Cultural Symposium Platform",
     description:
       "A full-scale production-grade website built for UTSAVA’26, a national-level techno-cultural symposium. The platform handles event listings, workshops, shows, registrations, dynamic schedules, and real-time UI interactions with a premium, modern user experience.",
-    image: "/projects/utsava.png",
+    image: "/projects/utsava.webp",
     tech: [
       "Next.js 15",
       "TypeScript",
@@ -28,7 +28,7 @@ const projects = [
     title: "AI Powered ICU Patient Flow Coordinator",
     description:
       "AI ICU bed allocation system with predictive analytics, dashboards, and automated approvals. Consultancy project for GE Healthcare.",
-    image: "/projects/icu.png",
+    image: "/projects/icu.webp",
     tech: ["AI", "Machine Learning", "Healthcare", "Resource Management", "Dashboard", "TypeScript", "FastAPI", "Python"],
     github: "",
     demo: "https://drive.google.com/file/d/1bHBdlFBayHi8kjnHhxljfZl0BYBfngbR/view?usp=sharing",
@@ -38,7 +38,7 @@ const projects = [
     title: "AI Driven Nocturnal Elephant Detection",
     description:
       "YOLOv8-based elephant detection with adaptive alerts and bilingual dashboard for conflict prevention. 1st Prize at Human-Animal Conflict Hackathon 2025.",
-    image: "/projects/fhc.png",
+    image: "/projects/fhc.webp",
     tech: ["Raspberry PI 4B", "YOLOv8", "IoT", "Computer Vision", "OpenCV", "Leaflet.js", "Twilio API"],
     github: "",
     demo: "https://drive.google.com/file/d/1oAiJpuySPdQQOKtwHGAlK4FZSOGzh0UK/view?usp=sharing", // or Google Drive link
@@ -48,7 +48,7 @@ const projects = [
     title: "AI Powered Cyber Triage System for Real-time threat Detection",
     description:
       "Real-time platform detecting and mitigating DoS/DDoS variants via Random Forest, with automated IP blocking and CSV log analysis. 1st Prize at TECHNOVATE’25.",
-    image: "/projects/ct.png",
+    image: "/projects/ct.webp",
     tech: [
       "Cybersecurity",
       "Machine Learning",
@@ -64,7 +64,7 @@ const projects = [
     title: "SmartSEV - SREC",
     description:
       "EV monitoring platform for campus shuttles with live tracking, battery/solar status, and alerts. MSME recognition applied.",
-    image: "/projects/ssev.png",
+    image: "/projects/ssev.webp",
     tech: ["IoT", "MQTT", "Real-time Tracking", "Data Analytics", "React", "Node.js", "MongoDB", "Tailwind CSS"],
     github: "https://github.com/kishan0818/SmartSEV-SREC",
     demo: "https://smart-sev-srec.vercel.app/",
@@ -74,7 +74,7 @@ const projects = [
     title: "TrackCrack",
     description:
       "Railway crack detection using acoustic analysis and CNN models on Raspberry Pi sensor data. Advanced to SIH nationals.",
-    image: "/projects/ai-rail-inspection.png",
+    image: "/projects/ai-rail-inspection.webp",
     tech: [
       "IoT",
       "Deep Learning",

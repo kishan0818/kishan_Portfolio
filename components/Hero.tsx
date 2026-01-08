@@ -118,7 +118,7 @@ export default function Hero() {
               <div className="w-[28rem] h-[28rem] rounded-full bg-gradient-to-br from-[#00E0B8] to-[#00a085] p-1">
                 <div className="w-full h-full rounded-full bg-gray-900 flex items-center justify-center overflow-hidden">
                   <Image
-                    src="/jayakishan-profile.png"
+                    src="/jayakishan-profile.webp"
                     alt="Jayakishan B"
                     width={500}
                     height={400}
