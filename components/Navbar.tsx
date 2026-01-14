@@ -2,8 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { motion } from "framer-motion"
-import { Moon, Sun, Menu, X, Github, Linkedin } from "lucide-react"
-import { useTheme } from "next-themes"
+import { Menu, X, Github, Linkedin } from "lucide-react"
 
 const navItems = [
   { name: "Home", href: "#home" },
@@ -18,7 +17,6 @@ const navItems = [
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
-  const { theme, setTheme } = useTheme()
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
@@ -43,27 +41,27 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Name + Icons */}
-          <motion.div whileHover={{ scale: 1.05 }} className="flex items-center gap-3 font-heading font-bold text-xl text-[#00E0B8]">
-            Jayakishan B
-            <div className="flex items-center gap-2">
+          <motion.div whileHover={{ scale: 1.05 }} className="flex items-center gap-2 sm:gap-3 font-heading font-bold text-lg sm:text-xl text-[#00E0B8]">
+            <span>Jayakishan B</span>
+            <div className="flex items-center gap-1.5 sm:gap-2">
               <a href="https://github.com/kishan0818" target="_blank" rel="noopener noreferrer">
-                <Github size={20} className="text-gray-300 hover:text-[#00E0B8] transition-colors" />
+                <Github size={18} className="text-gray-300 hover:text-[#00E0B8] transition-colors sm:w-5 sm:h-5" />
               </a>
               <a href="https://www.linkedin.com/in/jayakishan-balagopal-978613300/" target="_blank" rel="noopener noreferrer">
-                <Linkedin size={20} className="text-gray-300 hover:text-[#00E0B8] transition-colors" />
+                <Linkedin size={18} className="text-gray-300 hover:text-[#00E0B8] transition-colors sm:w-5 sm:h-5" />
               </a>
               <a href="https://leetcode.com/u/kishan0818/" target="_blank" rel="noopener noreferrer">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
+                  width="18"
+                  height="18"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  className="text-gray-300 hover:text-[#00E0B8] transition-colors"
+                  className="text-gray-300 hover:text-[#00E0B8] transition-colors sm:w-5 sm:h-5"
                 >
                   <path d="M14.7 4.3a1 1 0 0 1 1.4 1.4L9.4 12l6.7 6.3a1 1 0 1 1-1.4 1.4L7 12l7.7-7.7z" />
                   <circle cx="17" cy="12" r="2" />
@@ -88,15 +86,7 @@ export default function Navbar() {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="md:hidden flex items-center space-x-4">
-            <motion.button
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.95 }}
-              onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-              className="p-2 rounded-lg bg-gray-800 hover:bg-gray-700 transition-colors"
-            >
-              {theme === "dark" ? <Sun size={20} /> : <Moon size={20} />}
-            </motion.button>
+          <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className="p-2 rounded-lg bg-gray-800 hover:bg-gray-700 transition-colors"
