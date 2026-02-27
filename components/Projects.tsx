@@ -8,7 +8,7 @@ const projects = [
   {
     title: "UTSAVA’26 – National Techno-Cultural Symposium Platform",
     description:
-      "A full-scale production-grade website built for UTSAVA’26, a national-level techno-cultural symposium. The platform handles event listings, workshops, shows, registrations, dynamic schedules, and real-time UI interactions with a premium, modern user experience.",
+      "A full-scale production-grade platform built for a national-level techno-cultural symposium, supporting event listings, registrations, workshops, live schedules, and real-time UI interactions with a premium user experience.",
     image: "/projects/utsava.webp",
     tech: [
       "Next.js 15",
@@ -18,80 +18,144 @@ const projects = [
       "Framer Motion",
       "Supabase",
       "Vercel",
-      "Responsive Design"
+      "Responsive Design",
     ],
-    github: "", 
+    github: "",
     demo: "https://srec-utsava.in",
-    demoType: "live"
+    demoType: "live",
   },
+
   {
     title: "AI Powered ICU Patient Flow Coordinator",
     description:
-      "AI ICU bed allocation system with predictive analytics, dashboards, and automated approvals. Consultancy project for GE Healthcare.",
+      "AI-powered ICU bed allocation and patient triage system with predictive analytics and real-time dashboards. Built as a consultancy project for GE HealthCare to improve admission prioritization and operational efficiency.",
     image: "/projects/icu.webp",
-    tech: ["AI", "Machine Learning", "Healthcare", "Resource Management", "Dashboard", "TypeScript", "FastAPI", "Python"],
+    tech: [
+      "Machine Learning",
+      "Healthcare Analytics",
+      "Logistic Regression",
+      "FastAPI",
+      "Python",
+      "TypeScript",
+      "Dashboard Systems",
+    ],
     github: "",
     demo: "https://drive.google.com/file/d/1bHBdlFBayHi8kjnHhxljfZl0BYBfngbR/view?usp=sharing",
-    demoType:"video",
-  },
-  {
-    title: "AI Driven Nocturnal Elephant Detection",
-    description:
-      "YOLOv8-based elephant detection with adaptive alerts and bilingual dashboard for conflict prevention. 1st Prize at Human-Animal Conflict Hackathon 2025.",
-    image: "/projects/fhc.webp",
-    tech: ["Raspberry PI 4B", "YOLOv8", "IoT", "Computer Vision", "OpenCV", "Leaflet.js", "Twilio API"],
-    github: "",
-    demo: "https://drive.google.com/file/d/1oAiJpuySPdQQOKtwHGAlK4FZSOGzh0UK/view?usp=sharing", // or Google Drive link
     demoType: "video",
   },
+
   {
-    title: "AI Powered Cyber Triage System for Real-time threat Detection",
+    title: "AI-Driven Drug Discovery & Genomic Analysis Framework",
     description:
-      "Real-time platform detecting and mitigating DoS/DDoS variants via Random Forest, with automated IP blocking and CSV log analysis. 1st Prize at TECHNOVATE’25.",
+      "Explainable AI framework for drug–target interaction prediction and genomic variant analysis. Finalist at InnoHack’26, selected among top 21 teams from 900+ nationwide entries.",
+    image: "/projects/hypoxia.webp",
+    tech: [
+      "Explainable AI",
+      "XGBoost",
+      "Random Forest",
+      "SHAP",
+      "RAG",
+      "Bioinformatics",
+      "FastAPI",
+    ],
+    github: "",
+    demo: "",
+    demoType: null,
+  },
+
+  {
+    title: "Explainable AI MLOps Framework for Fair Loan Advisory",
+    description:
+      "End-to-end MLOps framework for fair and inclusive loan advisory systems with bias mitigation, drift detection, and explainable predictions. Research paper accepted in IJARCS (2026).",
+    image: "/projects/twxai.webp",
+    tech: [
+      "MLOps",
+      "Fairness in AI",
+      "XGBoost",
+      "SHAP",
+      "Drift Detection",
+      "FastAPI",
+      "Next.js",
+    ],
+    github: "",
+    demo: "",
+    demoType: null,
+  },
+
+  {
+    title: "AI Driven Nocturnal Elephant Detection System",
+    description:
+      "YOLOv8-based nocturnal elephant detection system with adaptive deterrence, multilingual alerts, and real-time dashboards. 1st Prize winner at the Human–Animal Conflict Hackathon.",
+    image: "/projects/fhc.webp",
+    tech: [
+      "YOLOv8",
+      "Computer Vision",
+      "OpenCV",
+      "Raspberry Pi 4B",
+      "IoT",
+      "Twilio API",
+      "Leaflet.js",
+    ],
+    github: "",
+    demo: "https://drive.google.com/file/d/1oAiJpuySPdQQOKtwHGAlK4FZSOGzh0UK/view?usp=sharing",
+    demoType: "video",
+  },
+
+  {
+    title: "AI Powered Cyber Triage System",
+    description:
+      "Real-time DoS/DDoS detection and response platform using machine learning with automated IP blocking and attack analytics. 1st Prize at TECHNOVATE’25.",
     image: "/projects/ct.webp",
     tech: [
       "Cybersecurity",
       "Machine Learning",
       "Random Forest",
       "Flask",
+      "Scapy",
       "Windows Firewall Automation",
     ],
     github: "https://github.com/kishan0818/CyberTriage",
-    demo: "https://drive.google.com/file/d/14bu0BH5MRbKQDBY8Gf5YRzZbplJqbTRB/view?usp=sharing", // or Google Drive link
+    demo: "https://drive.google.com/file/d/14bu0BH5MRbKQDBY8Gf5YRzZbplJqbTRB/view?usp=sharing",
     demoType: "video",
   },
+
   {
-    title: "SmartSEV - SREC",
+    title: "SmartSEV – Smart Electric Vehicle Monitoring Platform",
     description:
-      "EV monitoring platform for campus shuttles with live tracking, battery/solar status, and alerts. MSME recognition applied.",
+      "IoT-based EV monitoring system for campus shuttle services with real-time tracking, battery and solar analytics, and alerting dashboards. MSME recognition applied.",
     image: "/projects/ssev.webp",
-    tech: ["IoT", "MQTT", "Real-time Tracking", "Data Analytics", "React", "Node.js", "MongoDB", "Tailwind CSS"],
+    tech: [
+      "IoT",
+      "MQTT",
+      "Real-time Tracking",
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Tailwind CSS",
+    ],
     github: "https://github.com/kishan0818/SmartSEV-SREC",
     demo: "https://smart-sev-srec.vercel.app/",
     demoType: "live",
   },
+
   {
-    title: "TrackCrack",
+    title: "TrackCrack – AI Railway Track Crack Detection",
     description:
-      "Railway crack detection using acoustic analysis and CNN models on Raspberry Pi sensor data. Advanced to SIH nationals.",
+      "Railway track crack detection system using acoustic signal analysis and CNN models on Raspberry Pi sensor data. Advanced to Smart India Hackathon nationals.",
     image: "/projects/ai-rail-inspection.webp",
     tech: [
-      "IoT",
-      "Deep Learning",
-      "Computer Vision",
       "Acoustic Signal Processing",
+      "Deep Learning",
       "CNN",
-      "Python",
       "TensorFlow/Keras",
       "OpenCV",
-      "Firebase",
-      "Android (Kotlin/Flutter)",
-      "Raspberry Pi 4B",
+      "Raspberry Pi",
+      "Android",
     ],
     github: "https://github.com/kishan0818/TrackCrack",
     demo: "",
     demoType: null,
-  }
+  },
 ]
 
 // Helper function to handle Google Drive direct links
@@ -109,7 +173,7 @@ const getDemoUrl = (url: string, type: string | null): string => {
 export default function Projects() {
   return (
     <section id="projects" className="py-20 bg-gray-900/50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -126,7 +190,7 @@ export default function Projects() {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <motion.div
               key={project.title}

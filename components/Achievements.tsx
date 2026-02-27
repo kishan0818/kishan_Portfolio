@@ -8,7 +8,7 @@ const achievements = [
     title: "Human-Animal Conflict Hackathon",
     placement: "1st Place",
     prize: "₹25K",
-    year: "2024",
+    year: "2025",
     image: "/achievements/forest.webp",
     description: "Won for developing the AI-driven Nocturnal Elephant Detection & Deterrence System - Sri Ramakrishna Engineering College, Coimbatore.",
   },

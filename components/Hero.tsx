@@ -112,13 +112,15 @@ export default function Hero() {
               <div className="w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 lg:w-[28rem] lg:h-[28rem] rounded-full bg-gradient-to-br from-[#00E0B8] to-[#00a085] p-1">
                 <div className="w-full h-full rounded-full bg-gray-900 flex items-center justify-center overflow-hidden">
                   <Image
-                    src="/jayakishan-profile.webp"
-                    alt="Jayakishan B"
-                    width={500}
-                    height={400}
-                    className="rounded-full object-cover w-full h-full"
-                    priority
-                  />
+                      src="/jayakishan-profile.webp"
+                      alt="Jayakishan B"
+                      width={500}
+                      height={400}
+                      className="rounded-full object-cover w-full h-full 
+                                object-[center_25%] 
+                                scale-[1.]"
+                      priority
+                    />
                 </div>
               </div>
             </motion.div>
